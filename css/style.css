@@ -1,0 +1,18 @@
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTKDdRchO7MRPd034tMGnR4eLBOcvr-uZ6z-_7I-ZVUVFZM4qIv);
+    background-position: right 50px;
+    background-repeat:no-repeat;
+    background-size: 100% 610px;
+}
+#img{
+    
+    margin-left: 200px;
+    margin-top: 70px;
+    height:400px;
+    width:400px;
+}
+
+#jumbo{
+    margin-top: 60px;
+}
+
