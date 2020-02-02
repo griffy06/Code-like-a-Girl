@@ -2,25 +2,30 @@ body{
   background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20190221/ourmid/pngtree-neon-sense-of-space-light-technology-image_16437.jpg);
   background-position: right 0px;
   background-repeat:no-repeat;
-  background-size: 100% 610px;
+  background-size: 100% 100vh;
 }
 #img{
   
-  margin-left: 37.3%;  
-  margin-top:12.5%;
+ /* margin-left: 37.3%;  
+  margin-top:12.5%;*/
+  /*margin-left: auto;
+  margin-right: auto;*/
+ /* display: block;
   height:186px;
+  width: 318px;
+  margin-left: auto;
+  margin-right: auto;*/
+  position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height:186px;
   width: 318px;
 }
 
-#jumbo{
-  background-image: linear-gradient(to bottom right,rgb(2, 23, 54),rgb(253, 234, 237),rgb(2, 23, 54));
-  margin-top: 210px;
-  font-family: 'Merienda', cursive;
-}
 
-#heading{
-  font-family: 'Satisfy', cursive;
-}
 
 #button {
     display: inline-block;
@@ -65,6 +70,7 @@ body{
 	background: white;
 	text-align: center;
     position: relative;
+    margin-top: 100vh;
 	margin-bottom: 40px;
 	font-size: 40px;
 	font-weight: 400;
